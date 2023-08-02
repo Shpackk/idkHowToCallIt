@@ -1,0 +1,25 @@
+{
+  "name": "idkhowtocallit",
+  "engines": {
+    "node": "20.3.1",
+    "npm": "9.6.7"
+  },
+  "version": "0.0.1",
+  "description": "No idea how to call this project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "nodemon src/index.ts"
+  },
+  "author": "Shpackk",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
